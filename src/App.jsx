@@ -15,7 +15,7 @@ import Team from "./pages/Team/Team";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <ScrollTop />
         <Routes>
           <Route path="/" element={<HomeTwo />} />
