@@ -1,0 +1,101 @@
+// Font Family
+$frank: 'Source Sans Pro', serif;
+$lato: 'Source Sans Pro', sans-serif;
+
+// Colors ---------------
+$white: #ffffff;
+
+$black: #0c0b02;
+$black-2: #070602;
+$black-3: #2d2929;
+$black-4: #191816;
+$green: #25ad0a;
+$green-2: #8aa29a;
+$green-3: #e9f7e6;
+$green-4: #28ba85;
+$blue: #2347fc;
+$blue-2: #3021ff;
+$purple: #ca16fc;
+$pink: #ff49ec;
+$or: #fd914f;
+
+// Stanford identity palette (identity.stanford.edu/design-elements/color)
+$su-cardinal: #8C1515;
+$su-cardinal-light: #B83A4B;
+$su-palo-alto: #175E54;
+$su-palo-alto-dark: #014240;
+$su-black: #2E2D29;
+$su-black-90: #43423E;
+$su-black-20: #D5D5D4;
+$su-black-10: #EAEAEA;
+$su-fog-light: #F4F4F4;
+
+// Stanford web interactive colors (identity.stanford.edu/design-elements/color/web)
+// Digital red: buttons and other interactive elements
+$su-digital-red: #B1040E;
+$su-digital-red-dark: #820000;
+// Digital blue: links only. Base on light backgrounds, dark for hover/focus,
+// light for links on dark backgrounds
+$su-digital-blue: #006CB8;
+$su-digital-blue-dark: #00548F;
+$su-digital-blue-light: #6FC3FF;
+
+
+$grey:#fafafa;
+$grey-2:#f8f7fe;
+$grey-3:#d4d3eb;
+$grey-4:#ecebff;
+$grey-5:#f4f0f0;
+$grey-6:#9895b4;
+$grey-7:#bcbbcb;
+$grey-8:#f4f5fd;
+$grey-9:#f5f5f5;
+$grey-10:#f1f1f1;
+$grey-11:#bbb;
+$grey-12:#f8f7fd;
+$grey-13:#eae9f4;
+$grey-14:#dadde3;
+$grey-15:#f3f1fa;
+$grey-16:#f3f2f8;
+$grey-17:#f1edf8;
+$grey-18:#f8f8f8;
+$grey-19:#f9f9f9;
+$grey-20:#9b9aa4;
+$grey-21:#f7f7f7;
+
+$theme-color: $su-digital-red;
+$body-text-color: #070707;
+
+//border colors
+$border:#f4f4f4;
+$border-2: #fca800;
+$border-3: #ffc95d;
+$border-4: #fca800;
+$border-5: #ffc95d;
+$border-6: #e2e0eb;
+$border-7: #e7e7e7;
+$border-8: #dddae9;
+$border-9: #eeeeee;
+$border-10: #f6f6f8;
+$border-11: #dbdae0;
+$border-12: #e8e7ec;
+$border-13: #f1f0f7;
+
+// Heading Color
+$heading-color: $su-black;
+
+// Soft color
+$black-soft:#262520;
+$black-soft-2:#262520;
+$black-soft-3:#262520;
+$black-soft-4:#262520;
+$black-soft-5:#262520;
+$black-soft-6:#262520;
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$xs:'(max-width: 575px)';
+

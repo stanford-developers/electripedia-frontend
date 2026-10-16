@@ -1,0 +1,64 @@
+/*----------------------------------------*/
+/*  DATA STORIES CSS START
+/*----------------------------------------*/
+
+// Blog-style list of data stories on /data
+// Text sizes match the homepage "About the Dataset" blurb (.expart__content-full)
+.page__heading .data-stories__intro{
+    font-size: 20px;
+    line-height: 1.6;
+    @media #{$xs}{
+        font-size: 17px;
+    }
+}
+.data-stories{
+    padding-top: 20px;
+}
+.data-story{
+    display: flex;
+    gap: 30px;
+    padding: 35px 0;
+    border-top: 1px solid $su-black-20;
+    &:last-child{
+        border-bottom: 1px solid $su-black-20;
+    }
+    @media #{$xs}{
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__thumb{
+        flex: 0 0 320px;
+        @media #{$md}{
+            flex-basis: 240px;
+        }
+        & img{
+            width: 100%;
+            display: block;
+        }
+    }
+    &__content{
+        max-width: 760px;
+        & h3{
+            margin: 0 0 15px;
+            font-size: 30px;
+            @media #{$xs}{
+                font-size: 24px;
+            }
+            & a{
+                color: $su-digital-blue;
+                &:hover, &:focus{
+                    color: $su-digital-blue-dark;
+                    text-decoration: underline;
+                }
+            }
+        }
+        & p{
+            margin-bottom: 0;
+            font-size: 20px;
+            line-height: 1.6;
+            @media #{$xs}{
+                font-size: 17px;
+            }
+        }
+    }
+}

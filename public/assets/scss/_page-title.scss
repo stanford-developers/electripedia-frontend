@@ -1,0 +1,21 @@
+/*----------------------------------------*/
+/*  20. PAGE TITLE CSS START
+/*----------------------------------------*/
+
+// Plain heading at the top of each page
+.page__heading{
+    // the masthead is position: fixed, so clear it (matches .hero__sky)
+    padding: 230px 0 30px;
+    @media #{$md}, #{$sm}, #{$xs}{
+        padding-top: 160px;
+    }
+    & h1{
+        margin-bottom: 0;
+    }
+    & p{
+        margin: 10px 0 0;
+    }
+    & + section{
+        padding-top: 0;
+    }
+}
