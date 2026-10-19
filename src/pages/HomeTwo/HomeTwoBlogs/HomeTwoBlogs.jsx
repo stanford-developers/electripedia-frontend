@@ -19,7 +19,7 @@ const HomeTwoBlogs = () => {
                <div className="row">
                   <HomeTwoSingleBlog monthYear="Oct 2026" date="21" publisher="" desc="We presented ElectriPedia at the ET Summit." href="https://etcc.swoogo.com/etsummit26/program"/>
                   <HomeTwoSingleBlog monthYear="Oct 2026" date="6" publisher="" desc="We presented ElectriPedia at the STEER Sustainable Systems Seminar." href="https://steer.stanford.edu/sustainable-systems-lunch-seminar"/>
-                  <HomeTwoSingleBlog monthYear="May 2025" date="22" publisher="" desc="Our building permit information extraction methodology paper is published in Energy and Buildings." href="https://www.sciencedirect.com/science/article/pii/S0378778825006206"/>
+                  <HomeTwoSingleBlog monthYear="May 2025" date="22" publisher="" desc="Our building permit information extraction methodology paper is published in Energy and Buildings!" href="https://www.sciencedirect.com/science/article/pii/S0378778825006206"/>
 
                </div>
                {/* <div className="row">
