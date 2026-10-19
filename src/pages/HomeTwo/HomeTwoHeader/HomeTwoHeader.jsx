@@ -111,7 +111,7 @@ const HomeTwoHeader = () => {
                <li><NavLink to="/team">Team</NavLink></li>
                <li><NavLink to="/data">Data</NavLink></li>
                <li class=" ">
-               <a href="mailto:sbobick@stanford.edu">Contact Us</a>
+               <NavLink to="/contact">Contact Us</NavLink>
                </li>
                </ul>
                <div class="su-site-search " role="search">

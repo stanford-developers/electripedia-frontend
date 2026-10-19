@@ -102,7 +102,7 @@ const HomeTwoFooter = () => {
                   <a href="https://campus-map.stanford.edu/">Campus Map</a>
                 </li>
                 <li>
-                  <a href="mailto:sbobick@stanford.edu">Contact Us</a>
+                  <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
