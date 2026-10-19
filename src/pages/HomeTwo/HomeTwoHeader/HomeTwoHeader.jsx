@@ -8,6 +8,8 @@ const HomeTwoHeader = () => {
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
    const { stickyMenu } = useGlobalContext();
+   const [menuOpen, setMenuOpen] = useState(false);
+   const closeMenu = () => setMenuOpen(false);
 
    const logoAdditionalStlye = {
       width: "50%",
@@ -102,25 +104,24 @@ const HomeTwoHeader = () => {
                <button type="submit" name="search" class="su-site-search__submit su-sr-only-text">Submit Search</button>
                </form>
             </div>
-            <nav class="su-main-nav no-js su-main-nav--mobile-search" aria-label="main menu">
-               <button class="su-main-nav__toggle su-main-nav__toggle--light" aria-expanded="false" aria-label="expand menu">Menu</button>
+            {/* Decanter's nav JS isn't loaded, so React drives the mobile toggle */}
+            <nav class="su-main-nav" aria-label="main menu">
+               <button
+                  class="su-main-nav__toggle su-main-nav__toggle--light"
+                  aria-expanded={menuOpen ? "true" : "false"}
+                  aria-label={menuOpen ? "collapse menu" : "expand menu"}
+                  onClick={() => setMenuOpen(!menuOpen)}
+               >{menuOpen ? "Close" : "Menu"}</button>
                <ul class="su-main-nav__menu-lv1">
                <li class=" ">
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/" onClick={closeMenu}>Home</NavLink>
                </li>
-               <li><NavLink to="/team">Team</NavLink></li>
-               <li><NavLink to="/data">Data</NavLink></li>
+               <li><NavLink to="/team" onClick={closeMenu}>Team</NavLink></li>
+               <li><NavLink to="/data" onClick={closeMenu}>Data</NavLink></li>
                <li class=" ">
-               <NavLink to="/contact">Contact Us</NavLink>
+               <NavLink to="/contact" onClick={closeMenu}>Contact Us</NavLink>
                </li>
                </ul>
-               <div class="su-site-search " role="search">
-               <form action="" method="" accept-charset="UTF-8">
-                  <label class="su-site-search__sr-label" for="search-field">Search this site</label>
-                  <input type="text" id="search-field" name="search-field" class="su-site-search__input" placeholder="Search this site" maxlength="128" />
-                  <button type="submit" name="search" class="su-site-search__submit su-sr-only-text">Submit Search</button>
-               </form>
-               </div>
             </nav>
          </section>
          </section>

@@ -13,7 +13,7 @@ const HomeTwoHeroSlider = () => {
                    <a href="#latestNews" className="z-btn">See what's New</a>
                 </div>
              </div>
-             <img src="assets/img/slider/02/electrification-house.png" alt="House showing the electrification technologies ElectriPedia tracks: solar, air source heat pump, electric dryer, induction cooktop, heat pump water heater, electric vehicle, and electric panel" />
+             <img src="assets/img/slider/02/electrification-house.jpg" alt="House showing the electrification technologies ElectriPedia tracks: solar, air source heat pump, electric dryer, induction cooktop, heat pump water heater, electric vehicle, and electric panel" />
              <p className="hero__credit">Image Credit: City of Palo Alto Utilities.</p>
           </section>
         </>

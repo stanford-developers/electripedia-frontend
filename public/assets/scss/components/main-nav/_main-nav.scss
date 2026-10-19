@@ -275,6 +275,8 @@
     @include fancy-hover(color(h-border--hover, $su-nav-colors), color(h-border--active, $su-nav-colors));
     @include padding(0 0 2rem);
     @include margin(0);
+    // keep the toggle clear of the lockup wordmark
+    margin-left: auto;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
