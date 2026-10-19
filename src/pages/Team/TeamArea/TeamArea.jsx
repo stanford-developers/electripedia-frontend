@@ -23,7 +23,7 @@ const TeamArea = () => {
                         <SingleTeam image="assets/img/team/June.jpeg" name="June Flora" title="Senior Research Scholar" description = "Senior Research Scholar in Civil and Environmental Engineering" href = "//profiles.stanford.edu/june-flora" />
                         <SingleTeam image="assets/img/team/Chad.png" name="Chad Zanocco" title="Research Engineer" description = "Research Engineer in Civil and Environmental Engineering" href = "//www.frias.uni-freiburg.de/en/people/fellows/current-fellows/zanocco-chad" />
                         <SingleTeam image="assets/img/team/Tao.jpg" name="Tao Sun" title="Postdoctoral Scholar" description = "Postdoctoral Scholar; PhD in Civil and Environmental Engineering (2025)" href = "https://s3l.stanford.edu/people/tao-sun" />
-                        <SingleTeam image="assets/img/team/Carlos.jpg" name="Carlos Hsieh" title="Undergraduate Researcher" description = "Undergraduate studying Data Science & Social Systems and Public Policy" href = "" />
+                        <SingleTeam image="assets/img/team/Carlos.jpg" name="Carlos Hsieh" title="Undergraduate Researcher" description = "Undergraduate in Data Science & Social Systems and Public Policy" href = "" />
                         {/* <SingleTeam image="assets/img/team/" name="" title="" description = "" href = "" /> */}
                      </div>
                      <h3 className="team__group-title">Alumni</h3>
