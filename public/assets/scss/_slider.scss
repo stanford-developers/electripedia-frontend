@@ -500,6 +500,15 @@
         position: relative;
         margin-top: -1px;
     }
+    // discreet attribution tucked under the bottom-left corner of the image
+    & .hero__credit{
+        margin: 4px 0 0;
+        padding-left: 4px;
+        font-size: 11px;
+        line-height: 1.4;
+        color: #9a9a9a;
+        text-align: left;
+    }
 }
 .hero__sky{
     padding-top: 230px;
