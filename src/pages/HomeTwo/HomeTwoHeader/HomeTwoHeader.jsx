@@ -83,7 +83,7 @@ const HomeTwoHeader = () => {
          </div>
          <section>
             <div class="su-lockup su-lockup--option-d">
-               <a href="/">
+               <Link to="/">
                <div class="su-lockup__cell1">
                   <div class="su-lockup__wordmark-wrapper">
                      <span class="su-lockup__wordmark">Stanford</span>
@@ -93,7 +93,7 @@ const HomeTwoHeader = () => {
                   <span class="su-lockup__line1">ElectriPedia</span>
                   {/* <span class="su-lockup__line3">Stanford's Official Styleguide</span> */}
                </div>
-               </a>
+               </Link>
             </div>
             <div class="su-site-search " role="search">
                <form action="https://www.stanford.edu/search" method="get" accept-charset="UTF-8">
@@ -106,7 +106,7 @@ const HomeTwoHeader = () => {
                <button class="su-main-nav__toggle su-main-nav__toggle--light" aria-expanded="false" aria-label="expand menu">Menu</button>
                <ul class="su-main-nav__menu-lv1">
                <li class=" ">
-                  <a href="/">Home</a>
+                  <NavLink to="/">Home</NavLink>
                </li>
                <li><NavLink to="/team">Team</NavLink></li>
                <li><NavLink to="/data">Data</NavLink></li>
