@@ -26,7 +26,7 @@ const HomeTeams = () => {
 
                <SingleTeam image="assets/img/team/June.jpeg" name="June Flora" title="Senior Research Scholar" description = "Senior Research Scholar in Civil and Environmental Engineering" href = "/profiles.stanford.edu/june-flora" />
                         <SingleTeam image="assets/img/team/Ram.jpeg" name="Ram Rajagopal" title="Faculty" description = "Professor of Civil and Environmental Engineering and of Electrical Engineering" href = "//profiles.stanford.edu/ram-rajagopal" />
-                        <SingleTeam image="assets/img/team/Chad.png" name="Chad Zanocco" title="Research Engineer" description = "Postdoctoral Researcher in Civil and Environmental Engineering" href = "//www.frias.uni-freiburg.de/en/people/fellows/current-fellows/zanocco-chad" />
+                        <SingleTeam image="assets/img/team/Chad.png" name="Chad Zanocco" title="Research Engineer" description = "Research Engineer in Civil and Environmental Engineering" href = "//www.frias.uni-freiburg.de/en/people/fellows/current-fellows/zanocco-chad" />
                   <div className="col-xl-3 col-lg-4 col-md-6">
                      <div className="team__item team__item-add p-relative text-center fix mb-30" >
                         <div className="team__add">
